@@ -2,13 +2,13 @@ const AWS = require('aws-sdk');
 
     
 // AWS S3 configurations
-const awsAccessKey = 'AKIA55K7XGY56H4ERN5T'
-const awsSecretKey = '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'
+const awsAccessKey = 'XYZ'
+const awsSecretKey = 'XYZ'
 const awsBucketName = 'abdbkt1'
 
 // AWS SES configurations
 const awsSesRegion = 'us-east-1';
-const awsSenderEmail = 'a25353342@gmail.com';
+const awsSenderEmail = 'XYZ@gmail.com';
 
 function s3bucket(){
 
