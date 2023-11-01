@@ -7,7 +7,7 @@ const s3 = require('../app/s3')
   const upload = multer({ dest: 'uploads/' });
 
  const awsSesRegion = 'us-east-1';
- const awsSenderEmail = 'a25353342@gmail.com';
+ const awsSenderEmail = 'XYZ@gmail.com';
 
    module.exports.Controller= async(req,res) =>
 {
