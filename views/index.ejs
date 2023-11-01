@@ -1,0 +1,11 @@
+<%- include("header")  -%>
+
+    <h1>File Upload and Email Sharing Page</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <input type="text" name="recipientEmail" placeholder="Recipient Email(s)" required>
+        <button type="submit"> Submit </button>
+    </form>
+
+
+<%- include("footer")  -%>
