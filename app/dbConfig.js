@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 const dbconfig = new Sequelize('defaultdb', 'admin', 'multiweekdb', {
-  host: 'multiweekdb.clnopyq3sfwe.us-east-1.rds.amazonaws.com',
+  host: 'XYZ.amazonaws.com',
   port: '3306', 
   dialect: 'mysql'
 });
